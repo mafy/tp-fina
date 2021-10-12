@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>Home</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Home">
+    <meta name="description" content="Agenda academica">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap-grid.css" rel="stylesheet"> 
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/bootstrap-utilities.css" rel="stylesheet"> 
+    <!-- Mi estilo CSS -->  
+    <link href="css/myStyle.css" rel="stylesheet">  
+    <!-- Java Script Bootstrap -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>    
+</head>  
+<body>
+    <div class="row m-0">  
+        <div class="col-md-8 p-5 contentHome min-vh-100 shadow">
+             <header class="col-md-12 mt-3 p-3 content-logo">
+                <h1 class="text-center m-0">logo</h1> 
+            </header>    
+            <section class="col-md-12">      
+                <article class="col-md-12 text-center">
+                    <img class="ilustHome m-4" src="img/ilustracionHome.png" aria-hidden="true"/> 
+                    <div class="row itemHome mt-5">
+                        <div class="col-md-4 text-start">
+                            <div class="icoHome1 text-center p-3">
+                                <img class="text-center" src="img/ico-organiza.png" aria-hidden="true"/> 
+                            </div>
+                            <h3 class="mt-4">Organiza</h3>
+                            <p>Almacena tus archivos, presentaciones, videos y comparte con tus alumnos.</p>
+                        </div>
+                        <div class="col-md-4 text-start">
+                            <div class="icoHome2 text-center p-3">
+                                <img class="text-center" src="img/ico-comparte.png" aria-hidden="true"/> 
+                            </div>
+                            <h3 class="mt-4">Comparte</h3>
+                            <p>Almacena tus archivos, presentaciones, videos y comparte con tus alumnos.</p>
+                        </div>
+                        <div class="col-md-4 text-start">
+                            <div class="icoHome3 text-center p-3">
+                                <img class="text-center" src="img/ico-disfruta.png" aria-hidden="true"/> 
+                            </div>
+                            <h3 class="mt-4">Disfruta</h3>
+                            <p>Almacena tus archivos, presentaciones, videos y comparte con tus alumnos.</p>
+                        </div>
+                        
+                    </div>    
+                </article>      
+            </section>
+        </div>  
+       
+        <div class="col-md-4  d-flex align-content-center flex-wrap">  
+        <aside class="col-md-12 p-4">
+            <div class="row">
+                <h2 class="text-center">¡Qué bueno volver a verte!</h2>
+                <a href="#" class="col-md-12 rounded-pil shadow-lg rounded-pill ico-login mt-3 linkColor text-center p-1"><img src="img/ico-facebook.png" width="20" height="auto" aria-hidden="true"> <span>Continuar con Facebook</span></a>
+                <a href="#" class="col-md-12 rounded-pil shadow-lg rounded-pill ico-login mt-3 linkColor text-center  p-1"><img src="img/ico-google.png" width="20" height="auto" aria-hidden="true"> <span>Continuar con Google </span></a>
+                <div class="col-md-12 text-center mt-4">
+                    <img class="text-center" src="img/separador-form.png" width="100%" height="auto" aria-hidden="true">
+                </div>
+                <form action="bienvenida.html" method="post" class="col-md-12 mt-3">
+                    <label for="name" class="col-12 mt-2"><strong>Nombre de usuario</strong></label>
+                    <input type="text" id="name" name="user_name" class="col-12 rounded" required="" />
+                    <label for="password" class="col-12 mt-2"><strong>Contraseña</strong></label>
+                    <input type="password" id="password" name="user_password" class="col-12 rounded" required="" />
+                    <label class="col-12 mt-2"><a href="#" class="linkColor">¿Olvidaste tu contraseña?</a></label>
+                    <input class="col-12 btn-primary border-0 rounded-pill botonForm mt-3" type="submit" value="Ingresar">
+                </form>
+                <a href="#" class="mt-3 col-12 linkColor text-center">¿No tienes una cuenta? <strong>Registrate</strong></a>
+            </div>
+        </aside>    
+        </div> 
+    </div> 
+</body>  
+</html>
+
+

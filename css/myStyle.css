@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'IntelClear_Bd';
+  src: url('font/IntelClear_Bd.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'IntelClear_Lt';
+  src: url('font/IntelClear_Lt.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'IntelClear_Rg';
+  src: url('font/IntelClear_Rg.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+html, body {
+	font-family: "IntelClear_Lt", sans-serif;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	color: #2F281E;
+}
+h1, h2, h3, h4, h5 {
+	font-family: "IntelClear_Bd", sans-serif;
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.6em;
+}
+h2 {
+	font-size: 1.4em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4, h5 {
+	font-size: 1em;
+}
+p, span, div, a, label, input{
+	font-family: "IntelClear_Lt", sans-serif;
+	font-size: 0.93em;
+}
+a {
+	text-decoration: none;
+}
+.btn-primary {
+	background-color: #2044FF;
+}
+.contentHome {
+	font-family: "IntelClear_Lt", sans-serif;
+	background-color: #F2F2F2;
+}
+.content-logo {
+	background-color: #BEC0C2;
+}
+.content-logo h1{
+	font-size: 1em;
+}
+.ilustHome {
+	width: auto;
+	height: auto;
+}
+.itemHome h3{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.icoHome1{
+	background-color: #3A5AFF;
+	border-radius: 20px;
+	width: 62px;
+}
+.icoHome2{
+	background-color: #FFC43B;
+	border-radius: 20px;
+	width: 62px;
+}
+.icoHome3{
+	background-color: #3CC5FF;
+	border-radius: 20px;
+	width: 62px;
+}
+.botonForm {
+	color: #fff;
+	height: 42px;
+}
+.ico-login {
+	height: 42px;
+}
+
+.ico-login span{
+	vertical-align: sub;
+}
+.ico-login img{
+	vertical-align: center;
+	margin-right: 5px;
+}
+input {
+	height: 42px;
+}
+
+.linkColor{
+	color: #2F281E;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.contentHome {
+		height: auto;
+		border-radius:0;
+	}
+	.ilustHome {
+		width: 50%;
+		height: auto;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.contentHome {
+		border-radius: 0;
+	}
+	.ilustHome {
+		width: 70%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.contentHome {
+		border-radius: 0 0 20% 0;
+	}
+	.ilustHome {
+		width: 90%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.contentHome {
+		border-radius: 0 0 20% 0;
+	}
+	.ilustHome {
+		width: auto;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.contentHome {
+		border-radius: 0 0 20% 0;
+	}
+	.ilustHome {
+		width: auto;
+	}
+}
