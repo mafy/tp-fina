@@ -18,53 +18,65 @@
 }
 html, body {
 	font-family: "IntelClear_Lt", sans-serif;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	margin: 0;
 	padding: 0;
 	color: #2F281E;
+	background-color: #ffffff;
+}
+p, span, div, a, label, input{
+	font-family: "IntelClear_Lt", sans-serif;
+	font-size: 0.90rem;
 }
 h1, h2, h3, h4, h5 {
 	font-family: "IntelClear_Bd", sans-serif;
 	font-weight: bold;
 }
 h1 {
-	font-size: 1.6em;
+	font-size: 1.6rem;
 }
 h2 {
-	font-size: 1.4em;
+	font-size: 1.4rem;
 }
 h3 {
-	font-size: 1.2em;
+	font-size: 1.2rem;
 }
-h4, h5 {
-	font-size: 1em;
+h4 {
+	font-size: 1rem;
 }
-p, span, div, a, label, input{
-	font-family: "IntelClear_Lt", sans-serif;
-	font-size: 0.93em;
+h5 {
+	font-size: 0.8rem;
 }
+
 a {
 	text-decoration: none;
+}
+
+*:focus {
+outline: 2px dotted #2044FF !important;
+}
+.link-dark:hover, .link-dark:focus, .navbar-toggler:hover, .navbar-toggler:focus, .nameUser:hover {
+    color: #2044FF !important;
 }
 .btn-primary {
 	background-color: #2044FF;
 }
 .contentHome {
 	font-family: "IntelClear_Lt", sans-serif;
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 .content-logo {
 	background-color: #BEC0C2;
 }
 .content-logo h1{
-	font-size: 1em;
+	font-size: 1rem;
 }
 .ilustHome {
 	width: auto;
 	height: auto;
 }
 .itemHome h3{
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	font-weight: bold;
 }
 
@@ -106,6 +118,113 @@ input {
 	color: #2F281E;
 }
 
+.active {
+	border-left: 6px solid #2044FF;
+	background-color: transparent;
+}
+
+.active a{
+	cursor: default;
+	color: #212529;
+}
+
+.active .link-dark:hover{
+	color: #212529;
+}
+
+.ico-hamburguesa {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url("../img/menu.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 36px 36px;
+	vertical-align: middle;
+}
+.navbar-toggler:focus .ico-hamburguesa, .navbar-toggler:hover .ico-hamburguesa {
+	background-image: url("../img/menuHover.png");
+}
+
+.menuUsario {
+	font-size: 0.80rem;
+}
+
+.menuUsario ul li{
+	align-self: center;
+}
+
+.bodySeccion {
+	background-color: #F2F2F2;
+}
+
+.sidebars {
+	background-color: #ffffff;
+	border-radius: 0 0 65px 0;
+	font-size: 0.80rem;
+}
+
+.badge {
+	font-size: 0.50rem;
+}
+
+.btn {
+	font-size: 0.90rem;
+}
+
+.cardHome {
+	text-align: center;
+	padding: 20px 10px;
+	border: 0;
+}
+
+.linea-separadora {
+	align-self: center;
+	align-items: center;
+	height: 1px;
+}
+
+.calendario-item {
+	width: 6px;
+	top: 0;
+	bottom: 0;
+}
+.nav-link {
+	padding: 10px 5px;
+}
+
+.navbar-toggler span{
+	font-size: 1rem;
+	font-family: "IntelClear_Bd", sans-serif;
+}
+.active-row {
+	border-bottom: 4px solid #FF3B53;
+}
+.btn-collapse {
+	right: 60px;
+}
+.accordion-button {
+	font-size: 0.90rem;
+}
+.wrapper {
+	width:50%;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.breadcrumbs {
+	position: relative;
+}
+.breadcrumbs-text{
+	font-size: 0.80rem;
+}
+.btn-accordion{
+	color: #666;
+}
+.btn-accordion-editar{
+	display: block;
+	float: right;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.contentHome {
@@ -115,6 +234,59 @@ input {
 	.ilustHome {
 		width: 50%;
 		height: auto;
+	}
+	.ico-menu {
+		display: none;
+	}
+	.menuUsario{
+		display: block;
+		width: auto;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.nameUser{
+		display: none;
+	}
+	.sidebars{
+		border-radius: 0;
+	}
+	.hi-home {
+		padding: 30px 0;
+	}
+	.hi-home img{
+		width: 50px;
+
+	}
+	.hi-text h1{
+		font-size: 1.2rem;
+
+	}
+	.hi-text{
+		padding: 10px 0 0 25px !important;
+	}
+	.btn-collapse-responsive{
+		display: none;
+	}
+	.breadcrumbs {
+		display: block;
+		margin-top: 35px;
+		margin-bottom: 15px;
+	}
+	.content-btn-header{
+		display: block !important;
+		padding-top: 15px;
+	}
+	.btn-header {
+		margin-top: 15px !important;
+		display: block;
+	}
+	.accordion{
+		padding: 0;
+	}
+	.btn-accordion-editar{
+		display: inline-block;
+		float: initial;
 	}
 }
 
@@ -126,34 +298,139 @@ input {
 	.ilustHome {
 		width: 70%;
 	}
+	.ico-menu {
+		display: none;
+	}
+	.btn-collapse-responsive{
+		display: none;
+	}
+	.menuUsario{
+		display: block;
+		width: auto;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.nameUser{
+		display: none;
+	}
+	.breadcrumbs {
+		display: block;
+		margin-top: 85px;
+		margin-bottom: 15px;
+	}
+	.content-btn-header{
+		display: block !important;
+		padding-top: 15px;
+	}
+	.btn-header {
+		margin-top: 15px !important;
+		display: block;
+	}
+	.btn-accordion-editar{
+		display: inline-block;
+		float: initial;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	.contentHome {
-		border-radius: 0 0 20% 0;
+		border-radius: 0 0 100px 0;
 	}
 	.ilustHome {
 		width: 90%;
+	}
+	.ico-menu {
+		display: none;
+	}
+	.btn-collapse-responsive{
+		display: none;
+	}
+	.menuUsario{
+		display: block;
+		width: auto;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.nameUser{
+		display: none;
+	}
+	.breadcrumbs {
+		display: block;
+		margin-top: 85px;
+		margin-bottom: 15px;
+	}
+	.content-btn-header{
+		display: flex !important;
+		padding: 0px;
+		justify-content: flex-start !important;
+	}
+	.btn-header {
+		display: inline-block;
+		width: auto;
+	}
+	.btn-accordion-editar{
+		display: inline-block;
+		float: initial;
 	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	.contentHome {
-		border-radius: 0 0 20% 0;
+		border-radius: 0 0 100px 0;
 	}
 	.ilustHome {
 		width: auto;
+	}
+	.ico-menu {
+		display: none;
+	}
+	.btn-collapse-responsive{
+		display: initial;
+	}
+	.breadcrumbs {
+		display: block;
+		margin-top: 27px;
+		margin-bottom: 35px;
+	}
+	.btn-header {
+		display: inline-block;
+		width: auto;
+	}
+	.content-btn-header{
+		justify-content: flex-end !important;
+	}
+	.btn-accordion-editar{
+		display: inline-block;
+		float: initial;
 	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 	.contentHome {
-		border-radius: 0 0 20% 0;
+		border-radius: 0 0 100px 0;
 	}
 	.ilustHome {
 		width: auto;
+	}
+	.ico-menu {
+		display: initial;
+	}
+	.breadcrumbs {
+		display: block;
+		margin-top: 27px;
+		margin-bottom: 35px;
+	}
+	.btn-header {
+		display: inline-block;
+		width: auto;
+	}
+	.btn-accordion-editar{
+		display: block;
+		float: right;
 	}
 }

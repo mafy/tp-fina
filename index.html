@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">  
 <head>    
-    <title>Home</title>    
+    <title>Login</title>    
     <meta charset="UTF-8">
-    <meta name="title" content="Home">
+    <meta name="title" content="Login">
     <meta name="description" content="Agenda academica">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -11,15 +11,13 @@
     <link href="css/bootstrap-grid.css" rel="stylesheet"> 
     <link href="css/bootstrap-reboot.css" rel="stylesheet">
     <link href="css/bootstrap-utilities.css" rel="stylesheet"> 
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Mi estilo CSS -->  
-    <link href="css/myStyle.css" rel="stylesheet">  
-    <!-- Java Script Bootstrap -->
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.js"></script>    
+    <link href="css/myStyle.css" rel="stylesheet">    
 </head>  
-<body>
-    <div class="row m-0">  
-        <div class="col-md-8  p-5 contentHome min-vh-100">
+<body class="bodySeccion">
+    <section class="row m-0">  
+        <div class="col-md-8  p-5 contentHome min-vh-100 shadow-lg">
              <header class="col-md-12 mt-3 p-3 content-logo">
                 <h1 class="text-center m-0">logo</h1> 
             </header>    
@@ -63,7 +61,7 @@
                 <div class="col-md-12 text-center mt-4">
                     <img class="text-center" src="img/separador-form.png" width="100%" height="auto" aria-hidden="true">
                 </div>
-                <form action="bienvenida.html" method="post" class="col-md-12 mt-3">
+                <form action="home.html" method="post" class="col-md-12 mt-3">
                     <label for="name" class="col-12 mt-2"><strong>Nombre de usuario</strong></label>
                     <input type="text" id="name" name="user_name" class="col-12 rounded" required="" />
                     <label for="password" class="col-12 mt-2"><strong>Contraseña</strong></label>
@@ -75,7 +73,11 @@
             </div>
         </aside>    
         </div> 
-    </div> 
+    </section>
+    <!-- Java Script Bootstrap -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sidebars.js"></script> 
 </body>  
 </html>
 
