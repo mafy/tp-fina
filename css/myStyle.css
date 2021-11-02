@@ -238,14 +238,14 @@ input {
 	.ico-menu {
 		display: none;
 	}
-	.menuUsario{
+	.menuUsario, .menuUsario1{
 		display: block;
 		width: auto;
 		position: absolute;
 		top: 0;
 		right: 0;
 	}
-	.nameUser{
+	.nameUser, .nameUser1{
 		display: none;
 	}
 	.sidebars{
@@ -331,6 +331,16 @@ input {
 		display: inline-block;
 		float: initial;
 	}
+	.menuUsario1{
+		display: initial;
+		width: initial;
+		position: inherit;
+		top: initial;
+		right: initial;
+	}
+	.nameUser1{
+		display: initial;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -375,6 +385,16 @@ input {
 		display: inline-block;
 		float: initial;
 	}
+	.menuUsario1{
+		display: initial;
+		width: initial;
+		position: inherit;
+		top: initial;
+		right: initial;
+	}
+	.nameUser1{
+		display: initial;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -407,6 +427,7 @@ input {
 		display: inline-block;
 		float: initial;
 	}
+	
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
