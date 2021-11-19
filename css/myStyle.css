@@ -65,12 +65,12 @@ outline: 2px dotted #2044FF !important;
 	font-family: "IntelClear_Lt", sans-serif;
 	background-color: #FFFFFF;
 }
-.content-logo {
-	background-color: #BEC0C2;
+.content-logo p{
+	font-family: "IntelClear_Bd", sans-serif;
+	font-weight: 700;
+	color: #544837;
 }
-.content-logo h1{
-	font-size: 1rem;
-}
+
 .ilustHome {
 	width: auto;
 	height: auto;
@@ -231,9 +231,14 @@ input {
 		height: auto;
 		border-radius:0;
 	}
+	.logo {
+		width: 180px;
+	}
+	.logo-menu {
+		width: 100px;
+	}
 	.ilustHome {
-		width: 50%;
-		height: auto;
+		display: none;
 	}
 	.ico-menu {
 		display: none;
@@ -296,7 +301,10 @@ input {
 		border-radius: 0;
 	}
 	.ilustHome {
-		width: 70%;
+		display: none;
+	}
+	.logo-menu {
+		width: 120px;
 	}
 	.ico-menu {
 		display: none;
@@ -349,7 +357,11 @@ input {
 		border-radius: 0 0 100px 0;
 	}
 	.ilustHome {
-		width: 90%;
+		width: 65%;
+		display: initial;
+	}
+	.logo-menu {
+		width: 120px;
 	}
 	.ico-menu {
 		display: none;
@@ -403,7 +415,10 @@ input {
 		border-radius: 0 0 100px 0;
 	}
 	.ilustHome {
-		width: auto;
+		width: 50%;
+	}
+	.logo-menu {
+		width: 120px;
 	}
 	.ico-menu {
 		display: none;
@@ -436,7 +451,10 @@ input {
 		border-radius: 0 0 100px 0;
 	}
 	.ilustHome {
-		width: auto;
+		width: 35%;
+	}
+	.logo-menu {
+		width: 140px;
 	}
 	.ico-menu {
 		display: initial;

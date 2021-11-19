@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="es">  
 <head>    
-    <title>Mis clases - Cronograma</title>    
+    <title>Mis clases | Cronograma | Cronos</title>    
     <meta charset="UTF-8">
-    <meta name="title" content="Mis clases - Cronograma">
+    <meta name="title" content="Mis clases | Cronograma | Cronos">
     <meta name="description" content="Agenda academica">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
@@ -26,10 +26,11 @@
             <span class="ps-1">Menú</span>
         </button>
         <div class="collapse navbar-collapse flex-column mb-auto mt-3" id="opciones"> 
-            <h2 class="mx-auto m-4">Name</h2>
+           <img class="mx-auto m-4 logo-menu" src="img/logo.svg" alt="" width="140" height="auto" /> 
+            <h2 class="visually-hidden">Cronos</h2>
             <ul class="nav nav-pills navbar-nav flex-column col-xs-12 col-lg-12 col-sm-12 col-md-12">
               <li class="shadow rounded p-1 m-2 nav-item">
-                <a href="#" class="nav-link link-dark">
+                <a href="home.html" class="nav-link link-dark">
                   <img src="img/ico-inicio.svg " alt="" class="align-middle ico-menu" />
                   <span class="ms-1 align-middle">Inicio</span>
                 </a>
@@ -64,320 +65,304 @@
                   <span class="ms-1 align-middle">Ayuda</span>
                 </a>
               </li>
-            </ul>          
-          </ul>
+            </ul> 
         </div>
       </nav>
       <main class="col-xs-12 col-sm-8 col-md-8 col-lg-10 p-4 pt-0">
         <div class="row">
           <nav aria-label="breadcrumbs" class="align-items-center breadcrumbs">
-                <div class="text-secondary breadcrumbs-text">Mis clase > Colegio Guadalupe > <strong class="text-dark">Lengua 2B</strong></div>
+                <div class="text-secondary breadcrumbs-text">Mis clases > Colegio Guadalupe > <strong class="text-dark">Lengua 2B</strong></div>
           </nav>
           <nav class="menuUsario" aria-label="Menu del usuario">
               <ul class="d-flex justify-content-end bd-highlight p-2 list-unstyled m-0 p-0 pb-0">
                   <li class="p-2">
-                    <a href="#" class="position-relative" aria-label="Expandir menú principal">
+                    <a href="#" class="position-relative" aria-label="Notificaciones">
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                             1
-                            <span class="visually-hidden">Una notificación</span>
+                            <span class="visually-hidden">Tienes una notificación</span>
                         </span>
                         <img src="img/ico-notificaciones.svg" alt="" class="align-middle bg-light p-2 rounded-circle shadow" width="42" height="42" />
                     </a>
                   </li>
                   <li class="p-2 pe-0 ms-1">
-                    <a href="#" aria-label="Expandir menú principal"> 
+                    <a href="#" aria-label="Perfil del usuario"> 
                         <img src="img/ico-user.png" alt="" class="align-middle rounded-circle shadow" width="42" height="42" />
                         <span class="align-middle nameUser p-1 text-dark"><strong>Patricia</strong></span>
                     </a>
                   </li>
               </ul>
           </nav>
-           
         </div>
         <div class="row mt-3">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 pb-4 mb-4">
                 <div class="col-md-12 pt-0">
-                    <div class="row">
-                        <div class="d-flex justify-content-start">
-                            <div class="active-row"><strong>Cronograma</strong></div>
-                            <div class="ps-3 text-secondary">Biblioteca</div>
-                            <div class="ps-3 text-secondary">Alumnos</div>
-                        </div>
-                    </div>
+                    <nav class="row" aria-label="Menu de la clase">
+                        <ul class="d-flex justify-content-start list-unstyled">
+                            <li><a href="#" class="active-row link-dark"><strong>Cronograma</strong></a></li>
+                            <li><a href="#" class="ps-3 link-dark">Biblioteca</a></li>
+                            <li><a href="#" class="ps-3 link-dark">Alumnos</a></li>
+                        </ul>
+                    </nav>
                     <div class="row">
                         <div class="d-flex justify-content-end content-btn-header">
-                            <a href="#" class="btn btn-outline-primary rounded-pill m-2 btn-header">Agregar herramienta</a>
+                            <a href="#" class="btn btn-outline-primary rounded-pill m-2 btn-header">Ir a Zoom</a>
                         
                             <a href="#" class="btn btn-primary shadow rounded-pill m-2 btn-header">
                                 <img src="img/ico-pluss.svg" alt="" />
-                                <span>Agregar materia</span>
+                                <span>Agregar clase</span>
                             </a>
                         </div>
                     </div>
                     <div class="row py-4">
                         <h4>Módulo 1</h4>
                         <div class="accordion" id="accordionExample">
-                          <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingOne">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <img src="img/ico-select-active.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">01/10/2021 </span> <strong> - Clase 1 - Intruducción a la lengua española</strong> 
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingOne">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <img src="img/ico-select-active.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">01/10/2021 </span> <strong> - Clase 1 - Introducción a la lengua española</strong> 
+                                    </div>
+                                  </button>
                                 </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <img src="img/ico-select-active.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">06/10/2021 </span> <strong> - Clase 2 - Importacia de la gramática para la</strong> 
+                                    </div>
+                                  </button>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
                                     <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                  </div>
                                 </div>
                             </div>
-                          </div>
-                        <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                <img src="img/ico-select-active.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">06/10/2021 </span> <strong> - Clase 2 - Importacia de la gramática para la</strong> 
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">08/10/2021 </span> <strong> - Clase 3 - Clase palabras. El sustantivo.</strong> 
+                                    </div>
+                                  </button>
                                 </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
-                              </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">08/10/2021 </span> <strong> - Clase 3 - Clase palabras. El sustantivo.</strong> 
-                                </div>
-                               <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
-                               </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingFor">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="true" aria-controls="collapseFor">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">13/10/2021 </span> <strong> - Clase 4 - Clase palabras. El adjetivo.</strong> 
-                                </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseFor" class="accordion-collapse collapse" aria-labelledby="headingFor" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                   </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingFive">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">15/10/2021 </span> <strong> - Clase 5 - Clase palabras. El verbo.</strong> 
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingFor">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">13/10/2021 </span> <strong> - Clase 4 - Clase palabras. El adjetivo.</strong> 
+                                    </div>
+                                  </button>
                                 </div>
-                               <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingSix">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                 <div class="wrapper">
-                                    <span class="text-secondary pe-1">20/10/2021 </span> <strong> - Clase 6 - La oración. Análisis sintáctico.</strong> 
-                                 </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                               <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
+                                <div id="collapseFor" class="accordion-collapse collapse" aria-labelledby="headingFor" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        </div>        
-                      </ul>
-                    </div>
-                    <div class="row pt-4 py-4">
-                        <h4>Módulo 2</h4>
-                        <div class="accordion" id="accordionExample2">
-                          <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingSeven">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">22/10/2021 </span> <strong> - Clase 7 - Ortografía: Los signos de puntuación.</strong> 
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingFive">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">15/10/2021 </span> <strong> - Clase 5 - Clase palabras. El verbo.</strong> 
+                                    </div>
+                                  </button>
                                 </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
-                               <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
-                          <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingEight">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">27/10/2021 </span> <strong> - Clase 8 - Gramática: Identificación de las palabras</strong> 
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingSix">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                     <div class="wrapper">
+                                        <span class="text-secondary pe-1">20/10/2021 </span> <strong> - Clase 6 - La oración. Análisis sintáctico.</strong> 
+                                     </div>
+                                  </button>
                                 </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample2">
-                               <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingNineteen">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">29/10/2021 </span> <strong> - Clase 9 - Tipos de textos. Las tramas.</strong> 
-                                </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionExample2">
-                              <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                   <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
-                          <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingTwenty">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">03/11/2021 </span> <strong> - Clase 10 - Introducción a la lengua española. </strong> 
+
+                            <h4 class="mt-4 mb-4">Módulo 2</h4>
+
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingSeven">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">22/10/2021 </span> <strong> - Clase 7 - Ortografía: Los signos de puntuación.</strong> 
+                                    </div>
+                                  </button>
                                 </div>
-                                <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty" data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="accordion-item mt-3 border-0 shadow-sm">
-                            <div class="accordion-header" id="headingEleven">
-                              <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
-                                <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
-                                <div class="wrapper">
-                                    <span class="text-secondary pe-1">05/11/2021 </span> <strong> - Clase 11 - Introducción a la lengua española.</strong> 
-                                </div>
-                               <a href="#" aria-label="Ver contenido" class="btn btn-outline-primary rounded-pill position-absolute btn-collapse"> <span aria-hidden="true"> Ver <span class="btn-collapse-responsive">contenido</span></span></a>
-                              </button>
-                            </div>
-                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    <div class="text-secondary">Accesos rápidos</div>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver materiales anexos</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ir a Classroom</a>
-                                    <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver video</a>
-                                    <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
-                                        <img src="img/ico-editar.svg" alt="" />
-                                        <span>Editar clase</span>
-                                    </a>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                   <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
-                        </div>        
-                      </ul>
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingEight">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">27/10/2021 </span> <strong> - Clase 8 - Gramática: Identificación de las palabras</strong> 
+                                    </div>
+                                  </button>
+                                </div>
+                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                   <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingNineteen">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">29/10/2021 </span> <strong> - Clase 9 - Tipos de textos. Las tramas.</strong> 
+                                    </div>
+                                  </button>
+                                </div>
+                                <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingTwenty">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">03/11/2021 </span> <strong> - Clase 10 - Introducción a la lengua española. </strong> 
+                                    </div>
+                                  </button>
+                                </div>
+                                <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3 border-0 shadow-sm">
+                                <div class="accordion-header" id="headingEleven">
+                                  <button class="accordion-button collapsed p-3 position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                    <img src="img/ico-select.png" width="28" height="28" alt="" class="me-2" />
+                                    <div class="wrapper">
+                                        <span class="text-secondary pe-1">05/11/2021 </span> <strong> - Clase 11 - Introducción a la lengua española.</strong> 
+                                    </div>
+                                  </button>
+                                </div>
+                                <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="text-secondary">Accesos rápidos</div>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-danger">Ver contenidos de la clase</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion">Ver materiales anexos</a>
+                                        <a href="#" class="btn btn-outline-primary rounded-pill m-1 btn-accordion border-info">Ver grabación</a>
+                                        <a href="#" class="btn btn-primary shadow rounded-pill m-1 btn-accordion-editar">
+                                            <img src="img/ico-editar.svg" alt="" />
+                                            <span>Editar clase</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -385,6 +370,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h4 class="mt-3">Mi calendario</h4>
+                        <p class="mt-3"><b>Hoy es viernes 19 de Octubre</b></p>
                         <div class="mt-3 mb-4 pb-4 border-bottom">
                               <div class="row justify-content-center">
                                 <div class="col-md-12 text-center">
@@ -394,6 +380,10 @@
                                     </div>
                                   </form>
                               </div>
+                            </div>
+                            <div class="col-md-12 mt-4 text-center">
+                                <a href="#" class="btn btn-outline-primary rounded-pill">Agregar recordatorio</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -404,8 +394,7 @@
                                     <div class="rounded bg-danger calendario-item item-check position-absolute"  aria-hidden="true"></div>
                                     <div class="ps-3 d-flex flex-row">
                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-                                         <div class="d-block ps-2">
-                                            <div class="text-secondary">09:30 AM</div> 
+                                         <div class="d-block ps-2"> 
                                             <div class="link-dark">Actualizar el video anexo.</div> 
                                         </div>
                                     </div>
@@ -417,20 +406,7 @@
                                     <div class="ps-3 d-flex flex-row">
                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
                                          <div class="d-block ps-2">
-                                            <div class="text-secondary">09:30 AM</div> 
-                                            <div class="link-dark">Actualizar el video anexo.</div>  
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-12 mt-3 position-relative">
-                                <a href="#">
-                                    <div class="rounded bg-danger calendario-item tem-check position-absolute"  aria-hidden="true"></div>
-                                    <div class="ps-3 d-flex flex-row">
-                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                         <div class="d-block ps-2">
-                                             <div class="text-secondary">09:30 AM</div> 
-                                             <div class="link-dark">Actualizar el video anexo.</div> 
+                                            <div class="link-dark">Corregir trabajos prácticos.</div>  
                                         </div>
                                     </div>
                                 </a>
@@ -439,7 +415,7 @@
                     </div>
                 </div>
             </div>
-          </div>
+        </div>
       </main>
     </div>
 
