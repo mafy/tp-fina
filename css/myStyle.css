@@ -225,6 +225,48 @@ input {
 	display: block;
 	float: right;
 }
+.calendario-table{
+	margin: 0 auto;
+	max-width: 310px;
+}
+.header-calendar{
+	font-size: 0.8rem;
+}
+.table{
+	color: #333333;
+}
+
+.dias-calendario th{
+	padding: 5px;
+}
+.table > :not(:first-child) {
+    border-top: 0;
+}
+.c-hoy{
+	background-color: #E31E1E !important;
+	color: #ffffff;
+	border-radius: 5px;
+	width: 45px;
+    display: inline-block;
+}
+.c-recordatorios{
+	position: relative;
+}
+.c-recordatorios::after{
+	content: '';
+	width: 5px;
+	height: 5px;
+	-moz-border-radius: 7.5px;
+	-webkit-border-radius: 7.5px;
+	border-radius: 7.5px;
+	background-color: #E31E1E;
+	position: absolute;
+	bottom: 4px;
+	left: 13px;
+}
+.calendario-table .text-dark{
+	font-weight: bold;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.contentHome {
