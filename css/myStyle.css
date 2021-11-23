@@ -228,10 +228,7 @@ input {
 .btn-accordion{
 	color: #666;
 }
-.btn-accordion-editar{
-	display: block;
-	float: right;
-}
+
 .calendario-table{
 	margin: 0 auto;
 	max-width: 310px;
@@ -339,10 +336,7 @@ input {
 	.accordion{
 		padding: 0;
 	}
-	.btn-accordion-editar{
-		display: inline-block;
-		float: initial;
-	}
+	
 	.menu-bottom {
 		position: initial !important;
 		bottom: initial !important;
@@ -391,10 +385,7 @@ input {
 		margin-top: 15px !important;
 		display: block;
 	}
-	.btn-accordion-editar{
-		display: inline-block;
-		float: initial;
-	}
+
 	.menuUsario1{
 		display: initial;
 		width: initial;
@@ -449,10 +440,7 @@ input {
 		display: inline-block;
 		width: auto;
 	}
-	.btn-accordion-editar{
-		display: inline-block;
-		float: initial;
-	}
+
 	.menuUsario1{
 		display: initial;
 		width: initial;
@@ -494,10 +482,6 @@ input {
 	.content-btn-header{
 		justify-content: flex-end !important;
 	}
-	.btn-accordion-editar{
-		display: inline-block;
-		float: initial;
-	}
 	
 }
 
@@ -524,8 +508,5 @@ input {
 		display: inline-block;
 		width: auto;
 	}
-	.btn-accordion-editar{
-		display: inline-block;
-		float: initial;
-	}
+	
 }
