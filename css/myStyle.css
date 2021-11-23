@@ -274,6 +274,7 @@ input {
 .calendario-table .text-dark{
 	font-weight: bold;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.contentHome {
@@ -524,7 +525,7 @@ input {
 		width: auto;
 	}
 	.btn-accordion-editar{
-		display: block;
-		float: right;
+		display: inline-block;
+		float: initial;
 	}
 }
