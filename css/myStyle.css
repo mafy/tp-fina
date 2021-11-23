@@ -213,12 +213,7 @@ input {
 .accordion-button {
 	font-size: 0.90rem;
 }
-.wrapper {
-	width:50%;
-	overflow:hidden;
-    white-space:nowrap;
-    text-overflow: ellipsis;
-}
+
 .breadcrumbs {
 	position: relative;
 }
