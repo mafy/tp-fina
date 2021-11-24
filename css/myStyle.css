@@ -271,6 +271,9 @@ input {
 	overflow: inherit;
 	display: block;
 }
+.bg-clase h3{
+	font-size: 0.90rem;
+}
 .h-clase{
 	background-color: #f2f2f2;
 	padding: 2px 40px 10px 10px;
