@@ -300,6 +300,27 @@ input {
 .link-file:hover .ico-file {
 	fill: #0D6EFD !important;
 }
+#dataForm label{
+	font-size: 0.90rem;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+.modal .bg-success{
+	background-color: #3B9E18 !important;
+	display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+.modal img{
+	width: 100px;
+    height: auto;
+    padding: 20px;
+}
+.modal h1{
+	font-size: 1rem;
+	text-align: center;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -376,7 +397,7 @@ input {
 		display: block !important;
 		padding: 0;
 	}
-	.btn-clase-header a{
+	.btn-clase-header a, .btn-clase-header input{
 		display: block;
 	}
 }
@@ -436,7 +457,7 @@ input {
 		display: block !important;
 		padding: 0;
 	}
-	.btn-clase-header a{
+	.btn-clase-header a, .btn-clase-header input{
 		display: block;
 	}
 }
@@ -497,7 +518,7 @@ input {
 	.btn-clase-header{
 		display: flex !important;
 	}
-	.btn-clase-header a{
+	.btn-clase-header a, .btn-clase-header input{
 		display: initial;
 	}
 }
