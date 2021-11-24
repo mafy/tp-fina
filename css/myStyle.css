@@ -266,6 +266,37 @@ input {
 .calendario-table .text-dark{
 	font-weight: bold;
 }
+.bg-clase{
+	background-color: #dde1f3;
+	overflow: inherit;
+	display: block;
+}
+.h-clase{
+	background-color: #f2f2f2;
+	padding: 2px 40px 10px 10px;
+	border-radius: 0 0 15px 0;
+    display: inline;
+}
+#ico-borrar:hover .ico-borrar {
+	fill: #ffffff !important;
+}
+.link-file{
+	min-width: 320px;
+    text-align: left;
+}
+.link-file svg{
+ 	margin-right: 8px;
+ }
+.btn-file .link-file{
+	border: 1px solid #0D6EFD;
+	border-radius: 50%;
+}
+.btn-file .link-file:hover{
+	color: #0D6EFD;
+}
+.link-file:hover .ico-file {
+	fill: #0D6EFD !important;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
