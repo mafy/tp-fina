@@ -435,6 +435,7 @@
 
        if(0 == [i]){
           fecha = sParametro;
+          fecha = fecha.replace(/[-]/g, '/');
         }
         if(1 == [i]){
           titulo = sParametro;
