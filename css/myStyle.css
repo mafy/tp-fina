@@ -324,6 +324,33 @@ input {
 .modal-footer{
 	justify-content: center !important;
 }
+.imgPantallas {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width:1440px;
+	height: 1024px;
+	margin: 0 auto;
+	display: block;
+}
+.nuevaMateria {
+	background-image: url('../img/pantalla-nueva-materia.svg');
+}
+.misClases {
+	background-image: url('../img/pantalla-mis-clases.svg');
+}
+.addRecordatorio {
+	background-image: url('../img/pantalla-add-recordatorio.svg');
+}
+.miCalendario {
+	background-image: url('../img/pantalla-mi-calendario.svg');
+}
+.misAlumnos {
+	background-image: url('../img/pantalla-mis-alumnos.svg');
+}
+.eliminarClase {
+	background-image: url('../img/pantalla-eliminar-clase.svg');
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
