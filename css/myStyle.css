@@ -375,6 +375,12 @@ input {
 .eliminarClase {
 	background-image: url('../img/pantalla-eliminar-clase.svg');
 }
+.ayuda {
+	background-image: url('../img/pantalla-ayuda.svg');
+}
+.misReportes {
+	background-image: url('../img/pantalla-mis-reportes.svg');
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
