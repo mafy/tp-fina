@@ -226,7 +226,7 @@ input {
 
 .calendario-table{
 	margin: 0 auto;
-	max-width: 310px;
+	max-width: 380px;
 }
 .header-calendar{
 	font-size: 0.8rem;
@@ -240,6 +240,9 @@ input {
 }
 .table > :not(:first-child) {
     border-top: 0;
+}
+.table > :not(caption) > * > * {
+	border:0;
 }
 .c-hoy{
 	background-color: #E31E1E !important;
@@ -328,18 +331,26 @@ input {
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	width:1440px;
+	max-width:1440px;
+	width: 100%
+	height:100%;
 	height: 1024px;
 	margin: 0 auto;
 	display: block;
 }
-.card-body {
-	width:1440px;
+.mensaje-alerta{
+	background-color: #fcc33c;
+	max-width:1440px;
+	width: 100%
+}
+.mensaje-alerta .d-flex {
+	max-width:1440px;
+	width: 100%
 	margin: 0 auto;
 	padding-right: 0;
 	padding-left: 0;
 }
-.card-body h1{
+.mensaje-alerta h1{
 	font-size: 1.2rem;
 	padding: 0;
     margin: 0;
