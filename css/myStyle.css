@@ -212,6 +212,7 @@ input {
 }
 .accordion-button {
 	font-size: 0.90rem;
+	border-radius: 50px;
 }
 
 .breadcrumbs {
