@@ -76,7 +76,7 @@
       <main class="col-xs-12 col-sm-8 col-md-8 col-lg-10 p-4 pt-0">
         <div class="row">
           <nav aria-label="breadcrumbs" class="align-items-center breadcrumbs">
-                <div class="text-secondary breadcrumbs-text">Mis clases > Colegio Guadalupe > Lengua 2B > <strong class="text-dark">Clase 2: El circuito de la comunicación</strong></div>
+                <div class="text-secondary breadcrumbs-text"> <a href="#">Mis clases</a> > <a href="#"  id="boton"> Cronograma Lengua 2B  Colegio Guadalupe  </a> > <strong class="text-dark">Clase 2: El circuito de la comunicación</strong></div>
           </nav>
           <nav class="menuUsario" aria-label="Menu del usuario">
               <ul class="d-flex justify-content-end bd-highlight p-2 list-unstyled m-0 p-0 pb-0">
@@ -218,6 +218,13 @@
         </div>
       </main>
     </div>
+      <script type="text/javascript">
+        var boton = document.getElementById('boton');
+        boton.addEventListener("click",function() {
+          window.history.back();
+        }
+        ,false);
+    </script>
 
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/sidebars.js"></script>
