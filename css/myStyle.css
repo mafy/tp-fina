@@ -219,6 +219,7 @@ input {
 }
 .breadcrumbs-text{
 	font-size: 0.80rem;
+	color: #212529 !important;
 }
 .btn-accordion{
 	color: #666;
