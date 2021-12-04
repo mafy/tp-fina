@@ -76,7 +76,8 @@
       <main class="col-xs-12 col-sm-8 col-md-8 col-lg-10 p-4 pt-0">
         <div class="row">
           <nav aria-label="breadcrumbs" class="align-items-center breadcrumbs">
-                <div class="text-secondary breadcrumbs-text"> <a href="#">Mis clases</a> > <a href="#"  id="boton"> Cronograma Lengua 2B  Colegio Guadalupe  </a> > <strong class="text-dark">Clase 2: El circuito de la comunicación</strong></div>
+                <div class="text-secondary breadcrumbs-text"> <a href="mis-clases.html" class="link-dark">Mis clases</a> | <a href="cronograma.html" class="link-dark"> Cronograma Lengua 2B  Colegio Guadalupe  </a> | <strong class="text-dark" aria-current="location">Clase 2: El circuito de la comunicación</strong></div>
+
           </nav>
           <nav class="menuUsario" aria-label="Menu del usuario">
               <ul class="d-flex justify-content-end bd-highlight p-2 list-unstyled m-0 p-0 pb-0">
@@ -102,7 +103,13 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pb-4 mb-4">
                 <div class="col-md-12 pt-0 pb-4">
                     <div class="row">
-                        <div class="d-flex justify-content-end b-0 m-0 btn-clase-header">
+                      <div class="d-flex justify-content-start b-0 m-0 btn-clase-header col-md-6 boton-volver" id="boton">
+                            <a href="#" >
+                              <img src="img/ico-volver.svg" alt="" id="volver" />
+                              <span>Volver</span>
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-end b-0 m-0 btn-clase-header col-md-6">
                             <a href="contenido-clase2-eliminar.html" class="btn btn-outline-primary rounded-pill m-2" id="ico-borrar">
                               <svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
                                  width="17px" height="18px" viewBox="0 0 17 18" aria-hidden="true">
@@ -218,14 +225,14 @@
         </div>
       </main>
     </div>
-      <script type="text/javascript">
+   
+<script type="text/javascript">
         var boton = document.getElementById('boton');
         boton.addEventListener("click",function() {
           window.history.back();
         }
         ,false);
     </script>
-
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/sidebars.js"></script>
 
