@@ -122,7 +122,9 @@ outline: 2px dotted #2044FF !important;
 input {
 	height: 42px;
 }
-
+.text-secondary.pe-1{
+	color: #424141 !important;
+}
 .linkColor{
 	color: #2F281E;
 }
